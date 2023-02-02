@@ -5,7 +5,7 @@ services:
     build: .
     volumes:
       - .:/go/app
-    platform: linux/amd64
+    platform: windows/amd64
     extra_hosts:
       - "host.docker.internal:172.17.0.1"
 
